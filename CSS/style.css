@@ -33,7 +33,7 @@ header .head-page p {
   font-size: 18px;
   line-height: 25px;
   width: 40%;
-  margin: auto;
+  margin: 25px auto;
   color: #acacac;
 }
 header .count-down {
@@ -189,7 +189,7 @@ footer .social a.email i {
 }
 @media (max-width: 768px) {
   header .count-down {
-    width: 80%;
+    width: 100%;
   }
 }
 @media (max-width: 576px) {
@@ -200,6 +200,9 @@ footer .social a.email i {
     width: 90%;
   }
   .input-group {
-    width: 80% !important;
+    width: 95% !important;
+  }
+  header .counter{
+    margin: 0 5px;
   }
 }
