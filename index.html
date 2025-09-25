@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is a countdown landing page for a mobile app launch."
+    />
+    <link rel="stylesheet" href="Asset/Bootstrap/CSS/bootstrap.rtl.css" />
+    <link rel="stylesheet" href="Asset/Fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>موبي جيم</title>
+  </head>
+  <body>
+    <header class="text-center">
+      <div class="brand">
+        <div class="logo">
+          <img src="img/logo1.png" alt="Logo Photo" />
+        </div>
+        <div class="slogo">
+          <img src="img/logo2.png" alt="Logo Photo" />
+        </div>
+      </div>
+      <div class="head-page">
+        <h1>انتظروا موبي جيم قريبًا</h1>
+        <p>
+          هذا الموقع ببساطة أو الغاية منه هو عرض مهاراتي في إنشاء صفحات هبوط
+        </p>
+      </div>
+      <div class="count-down">
+        <div class="counter">
+          <span class="count-amount" id="months"></span>
+          <span class="count-period">أشهر</span>
+        </div>
+        <div class="counter">
+          <span class="count-amount" id="days"></span>
+          <span class="count-period">أيام</span>
+        </div>
+        <div class="counter">
+          <span class="count-amount" id="hours"></span>
+          <span class="count-period">ساعات</span>
+        </div>
+        <div class="counter">
+          <span class="count-amount" id="minutes"></span>
+          <span class="count-period">دقائق</span>
+        </div>
+        <div class="counter">
+          <span class="count-amount" id="seconds"></span>
+          <span class="count-period">ثواني</span>
+        </div>
+      </div>
+      <div class="send">
+        <p>هل تريد إرسال إشعار فور الانطلاق ؟</p>
+        <form class="needs-validation" novalidate>
+          <div class="input-group">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="أدخل البريد الإلكتروني"
+              required
+            />
+            <button type="submit" class="btn">
+              <img src="img/send1.png" alt="Photo" />
+            </button>
+            <div class="invalid-feedback">أدخل البريد الإلكتروني بشكل صحيح</div>
+          </div>
+        </form>
+      </div>
+    </header>
+    <main>
+      <section class="features">
+        <div class="container">
+          <h2>مميزات اللعبة</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="img/prush.png" alt="icon" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>تصميم أنيق وعصري</h4>
+                  <p>هو ببساطة نص شكلي الغاية هي الشكل وليس المحتوى</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="img/phone.png" alt="icon" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>اللعبة تُلعب بوضع الشاشة الكاملة</h4>
+                  <p>هو ببساطة نص شكلي الغاية هي الشكل وليس المحتوى</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="img/photo.png" alt="icon" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>يوجد صور لتوضيح تفاصيل اللعبة</h4>
+                  <p>هو ببساطة نص شكلي الغاية هي الشكل وليس المحتوى</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="img/fork.png" alt="icon" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>يمكنك مشاركة اللعبة كمجموعة</h4>
+                  <p>هو ببساطة نص شكلي الغاية هي الشكل وليس المحتوى</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="img/mail.png" alt="icon" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>يمكنك إرسال الهدايا لأصدقائك عبر اللعة</h4>
+                  <p>هو ببساطة نص شكلي الغاية هي الشكل وليس المحتوى</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="img/person-plus.png" alt="icon" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>إضافة أصدقاء للعب معًا</h4>
+                  <p>هو ببساطة نص شكلي الغاية هي الشكل وليس المحتوى</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="notification">
+        <h3>أضف بريدك الإلكتروني ليصلك إشعار فور الإنطلاق</h3>
+        <form class="needs-validation" novalidate>
+          <div class="input-group">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="أدخل البريد الإلكتروني"
+              required
+            />
+            <button type="submit">
+              <img src="img/send2.png" alt="icon" />
+            </button>
+            <div class="invalid-feedback">أدخل البريدالإلكتروني بشكل صحيح</div>
+          </div>
+        </form>
+      </div>
+      <div class="social">
+        <h3>تابعنا على وسائل التواصل الإجتماعي</h3>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://github.com/Ibrahim-Almahdy"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/ibrahim-almahdy-eng/"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+        </ul>
+        <hr />
+        <a href="mailto:ibarhim.almahdy.contact@gmail.com" class="email">
+          <i class="far fa-envelope"></i>
+          ibarhim.almahdy.contact@gmail.com
+        </a>
+      </div>
+    </footer>
+    <script src="Asset/Bootstrap/JavaScript/bootstrap.min.js"></script>
+    <script src="Js/script.js"></script>
+  </body>
+</html>
